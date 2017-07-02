@@ -1,0 +1,54 @@
+{
+  "name": "web-boilerplate-for-beginners",
+  "version": "1.0.0",
+  "description": "web-boilerplate-for-beginners",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "nodemon ./test",
+    "build": "rimraf dist && webpack",
+    "server": "anywhere --port 8001   ",
+    "start": "opn http://localhost:8080/webpack-dev-server/index.html && webpack-dev-server",
+    "ES6": "babel  -w src/ES6 -d  lib/ES6"
+  },
+  "keywords": [
+    "boilerplate",
+    "ES6/7",
+    "React",
+    "Redux"
+  ],
+  "author": "slashhuang",
+  "license": "ISC",
+  "devDependencies": {
+    "anywhere": "^1.4.0",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-import": "^1.1.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-syntax-decorators": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-decorators": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.23.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-fetch": "^1.6.3",
+    "nodemon": "^1.11.0",
+    "opn-cli": "^3.1.0",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "redux": "^3.6.0",
+    "rxjs": "^5.4.0"
+  }
+}
