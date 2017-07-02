@@ -8,34 +8,30 @@
 
 ```
 
-**有以下两种方法运行项目**
-
-### 1. 不采用devServer运行项目
+## 运行
 
 ```bash
-  # 编译代码
-  $ npm build
-
-  # 查看效果
-  $ npm start
-
-```
-### 2. 采用devServer运行项目
-
-```bash
-  # 采用webpack-dev-server编译代码
-  $ npm start
-
+   $ npm start
 ```
 
 ## 使用方式
 
- React :  修改src/react来学习react代码
+- [hello world](./src/react/hello-world.js)
+
+- [jsx](./src/react/jsx.js)
+
+- [js in jsx](./src/react/js-in-jsx.js)
+
+- [component](./src/react/component.js)
+
+- [life cycle](./src/react/life-cycle.js)
+
+- [props](./src/react/props.js)
+
+- [props](./src/react/state-props.js)
 
 
- 关于redux/async await/ES6的代码学习请移步
- 
- [web-boilerplate](https://github.com/slashhuang/web-bolilerplate-for-beginners)
+-关于redux/async await/ES6的代码学习请移步[web-boilerplate](https://github.com/slashhuang/web-bolilerplate-for-beginners)
 
 
 ## 页面
