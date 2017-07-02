@@ -23,4 +23,24 @@ var JSX = <div data-id='1'>
 </div>;
 render(JSX,document.getElementById('root'));
 
+## Virtual dom
+
+<div width='100px'>a</div>
+==>
+tagname: div
+attributes:{width: '100px'}
+children: a
+
+==> IOS / Android
+tagname: UIButton
+attributes:{display: flex}
+children: ...
+
+
+
+
+
+
+
+
 

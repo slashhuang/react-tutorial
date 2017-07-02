@@ -43,7 +43,7 @@ render(<PropState/>,RootDom);
 /**
  * 组件化: 
  * 1、函数式组件props => JSX ; 
- * 2、类组件:clas A extends Component;
+ * 2、类组件:class A extends Component;
  */ 
 /**
  * 数据源 : state  + props
