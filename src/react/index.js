@@ -4,17 +4,17 @@
  */
 import './hello-world';
 
-import './jsx';
+// import './jsx';
 
-import './js-in-jsx';
+// import './js-in-jsx';
 
-import './component';
+// import './component';
 
-import './life-cycle';
+// import './life-cycle';
 
-import './props';
+// import './props';
 
-import './state-props';
+// import './state-props';
 
 
 
