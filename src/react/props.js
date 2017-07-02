@@ -12,6 +12,7 @@ class Welcome extends Component {
 }
 /** props.children
  * React uses this.props.children to access a component's children nodes.
+ * ==== ! props should be pure ===
  */
 class ChildComponent extends Component{
     render(){

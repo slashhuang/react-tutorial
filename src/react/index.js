@@ -12,10 +12,10 @@
 
 // import './life-cycle';
 
-import './props';
+// import './props';
 {/*<A a='1'> ==> props = {a:'1'}*/}
 
-// import './state-props';
+import './state-props';
 
 
 
