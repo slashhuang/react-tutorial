@@ -1,4 +1,4 @@
-# web-bolilerplate-for-beginners
+# react-tutorial
 
 ## 安装
 

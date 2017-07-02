@@ -1,5 +1,6 @@
-
-dist
-lib
-test
+npm-debug.log
 node_modules
+
+lib
+.vscode
+test
