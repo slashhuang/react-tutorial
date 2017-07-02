@@ -7,7 +7,7 @@ import {render} from 'react-dom';
 const RootDom= document.getElementById('root');
 class Welcome extends React.Component {
   render() {
-    return <div>{props.gender } + {props.name}</div>
+    return <div>{this.props.gender } + {this.props.name}</div>
   }
 }
 /** props.children

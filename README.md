@@ -28,7 +28,7 @@
 
 - [props](./src/react/props.js)
 
-- [props](./src/react/state-props.js)
+- [state and props](./src/react/state-props.js)
 
 
 -关于redux/async await/ES6的代码学习请移步[web-boilerplate](https://github.com/slashhuang/web-bolilerplate-for-beginners)
