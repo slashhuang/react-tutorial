@@ -48,6 +48,10 @@ render(<PropState/>,RootDom);
 /**
  * 数据源 : state  + props
  * 更新数据: setState
+ * 方案: 当数据越来越复杂的时候，我们需要一个数据解决方案 ==> redux
+ * 发起数据变更(click etc.) ==> action
+ * 生成新的数据结构(state[store])  ==> redux的reducer生成react的state
+ * 渲染(render) ==> react来做
  */
 
 
