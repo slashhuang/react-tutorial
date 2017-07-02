@@ -19,6 +19,15 @@ const RootDom= document.getElementById('root');
 const A = (props)=>{
     return <div>{props.gender } + {props.name}</div>
 };
+// render(<A gender='male' name='slashhuang'/>,RootDom);
+
+// tagname  A, ==> 不是传统的html标签，而是个函数
+// attributes {   ==> 函数的情况下 attributes === props
+//     gender:'male',
+//     name: "slashhuang"
+// }
+// children: null
+
 /**
  * class components
  * - Adding Local State to a Class
@@ -37,7 +46,6 @@ class FirstComponent extends Component{
             <div>
                 I am a component
                 {this.state.b}
-                <A />
             </div>);
     }
  };

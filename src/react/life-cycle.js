@@ -1,8 +1,5 @@
-/** Define a component
- * a component class, 
- * which implements a render method to return an component instance of the class. 
- * You don't need to call new on the class in order to get an instance, j
- * ust use it as a normal HTML tag.
+/** 
+ * https://facebook.github.io/react/docs/state-and-lifecycle.html
  */
 import React,{Component} from 'react';
 import {render} from 'react-dom';

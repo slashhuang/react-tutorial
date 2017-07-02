@@ -5,15 +5,13 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
 const RootDom= document.getElementById('root');
-let JSX = (
-    <div>
-	{['react','饥人谷','学习'].map(function(name){
-		return <div key={name}>Hello, {name}!</div>
-	})}
-    </div>);
-
-let arrJSX = [
-  <h1 key='1'>Hello world!</h1>,
-  <h2 key='2'>React is awesome</h2>
-];
-render(<div>{JSX}{arrJSX}</div>, RootDom);
+let a = 1;
+let jsx1 = <div>{a}</div>;
+let b = { id : 2};
+let jsx2 = <div>{b.id}</div>;
+let jsx3 = ['i','love','react'].map((name) => {
+    return <div>{name}</div>
+});
+render(<div>
+    {jsx1}{jsx2}{jsx3}
+    </div>, RootDom);

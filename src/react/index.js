@@ -2,7 +2,7 @@
  * @Author slashhuang
  * 17/7/2
  */
-import './hello-world';
+// import './hello-world';
 
 // import './jsx';
 
@@ -12,7 +12,8 @@ import './hello-world';
 
 // import './life-cycle';
 
-// import './props';
+import './props';
+{/*<A a='1'> ==> props = {a:'1'}*/}
 
 // import './state-props';
 

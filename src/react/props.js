@@ -5,7 +5,7 @@
 import React,{Component} from 'react';
 import {render} from 'react-dom';
 const RootDom= document.getElementById('root');
-class Welcome extends React.Component {
+class Welcome extends Component {
   render() {
     return <div>{this.props.gender } + {this.props.name}</div>
   }
@@ -19,7 +19,6 @@ class ChildComponent extends Component{
         <div>
             {this.props.children}
             <Welcome gender='male' name='slashhuang' />
-
         </div>);
     }
  };
