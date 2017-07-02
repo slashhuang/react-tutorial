@@ -33,6 +33,7 @@
 
 -关于redux/async await/ES6的代码学习请移步[web-boilerplate](https://github.com/slashhuang/web-bolilerplate-for-beginners)
 
+[官方网址](https://facebook.github.io/react/)
 
 ## 页面
 
