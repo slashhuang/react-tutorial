@@ -1,12 +1,30 @@
-/** Define a component
- * a component class, 
- * which implements a render method to return an component instance of the class. 
- * You don't need to call new on the class in order to get an instance, j
- * ust use it as a normal HTML tag.
+/** 
+ * Define a component a component class, 
+ *
+ * reference: https://facebook.github.io/react/docs/components-and-props.html
+ * 
+ * All React components must act like pure functions with respect to their props.
+ * 
+ * what is the difference between functional component and class component
+ * 
+ * reference: https://stackoverflow.com/questions/35953840/reactjs-what-is-the-difference-between-functional-component-and-class-component
  */
 import React,{Component} from 'react';
 import {render} from 'react-dom';
 const RootDom= document.getElementById('root');
+/**
+ * pure functional components 
+ * it must never modify its own props
+ */
+const A = (props)=>{
+    return <div>{props.gender } + {props.name}</div>
+};
+/**
+ * class components
+ * - Adding Local State to a Class
+ * - Adding Lifecycle Methods to a Class
+ */
+
 class FirstComponent extends Component{
     constructor(){
         super();
@@ -19,6 +37,7 @@ class FirstComponent extends Component{
             <div>
                 I am a component
                 {this.state.b}
+                <A />
             </div>);
     }
  };

@@ -1,21 +1,26 @@
 /**
  * props in react
+ * reference https://facebook.github.io/react/docs/components-and-props.html
  */
 import React,{Component} from 'react';
 import {render} from 'react-dom';
 const RootDom= document.getElementById('root');
-const A = (props)=>{
+class Welcome extends React.Component {
+  render() {
     return <div>{props.gender } + {props.name}</div>
-};
-render(<A gender='male' name='slashhuang' />,RootDom);
-
-
+  }
+}
 /** props.children
  * React uses this.props.children to access a component's children nodes.
  */
 class ChildComponent extends Component{
     render(){
-        return <div>{this.props.children}</div>
+        return (
+        <div>
+            {this.props.children}
+            <Welcome gender='male' name='slashhuang' />
+
+        </div>);
     }
  };
-// render(<ChildComponent>我是个孩子</ChildComponent>,RootDom);
+render(<ChildComponent>我是个孩子</ChildComponent>,RootDom);
