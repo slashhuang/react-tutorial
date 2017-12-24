@@ -1,4 +1,4 @@
-const rootNode = document.getElementById('root');
+// const rootNode = document.getElementById('root');
 import React from 'react';
 import ReactDom from 'react-dom';
 

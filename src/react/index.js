@@ -24,7 +24,7 @@
  * react-redux + react ==> view + viewModel
  */
 
-import './helloWorld';
+// import './helloWorld';
 
 
 
